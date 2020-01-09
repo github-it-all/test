@@ -23,6 +23,7 @@ public class UserController {
 		List<User> users = userService.selList();
 		model.addAttribute("users",users);
 		System.out.println("Œ“¿¥≤‚ ‘github");
+		System.out.println("∆Êπ÷¡À");
 		return "/index.jsp";
 	}
 }
