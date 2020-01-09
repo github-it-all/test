@@ -22,6 +22,7 @@ public class UserController {
 	public String list(Model model) {
 		List<User> users = userService.selList();
 		model.addAttribute("users",users);
+		System.out.println("Œ“¿¥≤‚ ‘github");
 		return "/index.jsp";
 	}
 }
